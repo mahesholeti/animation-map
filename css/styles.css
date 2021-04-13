@@ -1,0 +1,54 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+/* .contianer{
+  margin-bottom: 40px;
+} */
+#mapid { 
+  height: 600px;
+  /* margin-top: 40px; */
+}
+
+.underline{
+  display: block;
+  width: 120px;
+  height: 1px;
+  border: none;
+  border-bottom: 6px solid yellow;
+  background-color: transparent;
+  margin: 0;
+}
+
+h2{
+  text-transform: uppercase;
+}
+
+.box{
+  display: inline-block;
+  position: relative;
+  background-color: #fff;
+  z-index: 9999;
+}
+
+.leaflet-popup-content-wrapper{
+  background-color: rgba(67, 67, 141, 0.9);
+  border-radius: 0;
+  color: #fff;
+  border-top: 2px solid yellow;
+  width: 200px;
+}
+
+.leaflet-popup-content-wrapper .container{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.leaflet-popup-content-wrapper img{
+  width: 15px;
+}
+
+.leaflet-popup-content-wrapper p{
+  font-size: 10px;
+}
